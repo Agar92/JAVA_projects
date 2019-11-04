@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="FrmEnterName">
+  <grid id="be817" binding="rootpanel" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="20" y="20" width="904" height="630"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <grid id="27dc6" binding="panEnterName" custom-create="true" layout-manager="GridBagLayout">
+        <constraints border-constraint="Center"/>
+        <properties>
+          <maximumSize width="900" height="618"/>
+          <minimumSize width="900" height="618"/>
+          <opaque value="false"/>
+          <preferredSize width="900" height="618"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="9c205" class="javax.swing.JButton" binding="btnEndReg">
+            <constraints>
+              <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                <minimum-size width="200" height="-1"/>
+                <preferred-size width="200" height="-1"/>
+                <maximum-size width="200" height="-1"/>
+              </grid>
+              <gridbag top="20" left="0" bottom="20" right="0" weightx="1.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <actionCommand value=""/>
+              <background color="-16600090"/>
+              <font size="24"/>
+              <foreground color="-1"/>
+              <label value="ЗАВЕРШИТЬ"/>
+              <maximumSize width="337" height="65"/>
+              <minimumSize width="337" height="65"/>
+              <opaque value="true"/>
+              <preferredSize width="337" height="65"/>
+              <text value="ЗАВЕРШИТЬ"/>
+              <toolTipText value="Завершить регистрацию"/>
+            </properties>
+          </component>
+          <component id="18d6" class="javax.swing.JTextPane" binding="lblEnterName">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="2" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="50"/>
+              </grid>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <editable value="false"/>
+              <focusCycleRoot value="false"/>
+              <focusable value="false"/>
+              <minimumSize width="350" height="87"/>
+              <opaque value="false"/>
+              <preferredSize width="350" height="87"/>
+              <text value="Введите ваше имя и фамилию и установите фотографию для завершения регистрации"/>
+            </properties>
+          </component>
+          <grid id="e3b3b" binding="panMiniLogo" custom-create="true" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+              <gridbag top="0" left="0" bottom="100" right="0" weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <focusable value="false"/>
+              <maximumSize width="124" height="98"/>
+              <minimumSize width="124" height="98"/>
+              <opaque value="false"/>
+              <preferredSize width="124" height="98"/>
+            </properties>
+            <border type="none"/>
+            <children/>
+          </grid>
+          <grid id="ae8af" binding="panName" layout-manager="BorderLayout" hgap="0" vgap="0">
+            <constraints>
+              <grid row="2" column="0" row-span="2" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <focusable value="false"/>
+              <minimumSize width="400" height="100"/>
+              <opaque value="false"/>
+              <preferredSize width="400" height="100"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <grid id="f69bb" binding="panPhoto" layout-manager="GridBagLayout">
+                <constraints border-constraint="West"/>
+                <properties>
+                  <background color="-7209056"/>
+                  <focusable value="false"/>
+                  <minimumSize width="100" height="100"/>
+                  <opaque value="false"/>
+                  <preferredSize width="100" height="100"/>
+                </properties>
+                <border type="line">
+                  <color color="-1"/>
+                </border>
+                <children/>
+              </grid>
+              <grid id="e5dd9" binding="panFullName" layout-manager="GridBagLayout">
+                <constraints border-constraint="Center"/>
+                <properties>
+                  <opaque value="false"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <component id="776bb" class="javax.swing.JTextField" binding="txtName">
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+                      <gridbag top="0" left="0" bottom="15" right="7" weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties>
+                      <font size="20"/>
+                      <maximumSize width="250" height="40"/>
+                      <minimumSize width="250" height="40"/>
+                      <opaque value="false"/>
+                      <preferredSize width="250" height="40"/>
+                      <text value="Имя"/>
+                    </properties>
+                  </component>
+                  <component id="536ce" class="javax.swing.JTextField" binding="txtLastName">
+                    <constraints>
+                      <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+                      <gridbag top="0" left="0" bottom="0" right="7" weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties>
+                      <font size="20"/>
+                      <maximumSize width="250" height="40"/>
+                      <minimumSize width="250" height="40"/>
+                      <opaque value="false"/>
+                      <preferredSize width="250" height="40"/>
+                      <text value="Фамилия"/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+            </children>
+          </grid>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>

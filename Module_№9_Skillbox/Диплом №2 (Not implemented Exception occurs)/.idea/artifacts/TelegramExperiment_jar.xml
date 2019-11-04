@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="TelegramExperiment:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/TelegramExperiment_jar</output-path>
+    <root id="archive" name="TelegramExperiment.jar">
+      <element id="module-output" name="Диплом" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/Lib/telegram-dao-proxy-v5.4.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Form">
+  <grid id="27dc6" binding="rootPanel" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+    <constraints>
+      <xy x="20" y="20" width="956" height="400"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="4e264" class="javax.swing.JLabel">
+        <constraints/>
+        <properties>
+          <horizontalAlignment value="0"/>
+          <maximumSize width="70" height="30"/>
+          <minimumSize width="70" height="30"/>
+          <preferredSize width="70" height="30"/>
+          <text value="Фамилия "/>
+        </properties>
+      </component>
+      <component id="97399" class="javax.swing.JTextField" binding="textField">
+        <constraints/>
+        <properties>
+          <maximumSize width="200" height="30"/>
+          <minimumSize width="200" height="30"/>
+          <preferredSize width="200" height="30"/>
+        </properties>
+      </component>
+      <component id="50ecc" class="javax.swing.JLabel">
+        <constraints/>
+        <properties>
+          <horizontalAlignment value="0"/>
+          <maximumSize width="70" height="30"/>
+          <minimumSize width="70" height="30"/>
+          <preferredSize width="70" height="30"/>
+          <text value="Имя"/>
+        </properties>
+      </component>
+      <component id="978a8" class="javax.swing.JTextField" binding="textField2">
+        <constraints/>
+        <properties>
+          <maximumSize width="200" height="30"/>
+          <minimumSize width="200" height="30"/>
+          <preferredSize width="200" height="30"/>
+        </properties>
+      </component>
+      <component id="15983" class="javax.swing.JLabel">
+        <constraints/>
+        <properties>
+          <horizontalAlignment value="0"/>
+          <maximumSize width="70" height="30"/>
+          <minimumSize width="70" height="30"/>
+          <preferredSize width="70" height="30"/>
+          <text value="Отчество"/>
+        </properties>
+      </component>
+      <component id="649d" class="javax.swing.JTextField" binding="textField3">
+        <constraints/>
+        <properties>
+          <maximumSize width="200" height="30"/>
+          <minimumSize width="200" height="30"/>
+          <preferredSize width="200" height="30"/>
+        </properties>
+      </component>
+      <component id="2483b" class="javax.swing.JButton" binding="Button">
+        <constraints/>
+        <properties>
+          <text value="Переключить"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>

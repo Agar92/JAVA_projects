@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Form">
+  <grid id="27dc6" binding="rootPanel" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+    <constraints>
+      <xy x="20" y="20" width="500" height="400"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="58d79" class="javax.swing.JTextField" binding="textField">
+        <constraints/>
+        <properties>
+          <maximumSize width="200" height="30"/>
+          <minimumSize width="200" height="30"/>
+          <preferredSize width="200" height="30"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="4b431" class="javax.swing.JButton" binding="button1" default-binding="true">
+        <constraints/>
+        <properties>
+          <text value="Button"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>

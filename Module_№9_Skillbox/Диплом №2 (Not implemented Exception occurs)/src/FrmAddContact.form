@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="FrmAddContact">
+  <grid id="27dc6" binding="panAddContact" custom-create="true" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="20" y="20" width="900" height="630"/>
+    </constraints>
+    <properties>
+      <minimumSize width="900" height="630"/>
+      <opaque value="false"/>
+      <preferredSize width="900" height="630"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <grid id="b0cc9" binding="panAddCenter" layout-manager="GridBagLayout">
+        <constraints border-constraint="Center"/>
+        <properties>
+          <opaque value="false"/>
+          <preferredSize width="0" height="0"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <grid id="e375f" binding="panPhoneNo" layout-manager="GridBagLayout">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+              <gridbag top="0" left="0" bottom="20" right="0" weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <minimumSize width="300" height="60"/>
+              <opaque value="false"/>
+              <preferredSize width="300" height="60"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <grid id="4d89" binding="panPhoneIcon" custom-create="true" layout-manager="GridBagLayout">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                  <gridbag top="0" left="0" bottom="0" right="20" weightx="0.0" weighty="0.0"/>
+                </constraints>
+                <properties>
+                  <minimumSize width="22" height="36"/>
+                  <opaque value="false"/>
+                  <preferredSize width="22" height="36"/>
+                </properties>
+                <border type="none"/>
+                <children/>
+              </grid>
+              <component id="8280b" class="javax.swing.JFormattedTextField" binding="txtPhoneNo">
+                <constraints>
+                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                  <gridbag weightx="0.0" weighty="0.0"/>
+                </constraints>
+                <properties>
+                  <minimumSize width="300" height="40"/>
+                  <opaque value="false"/>
+                  <preferredSize width="280" height="40"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <component id="6dc51" class="javax.swing.JTextPane" binding="lblEnterPhoneNo">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="2" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="50"/>
+              </grid>
+              <gridbag top="0" left="0" bottom="20" right="0" weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <foreground color="-1"/>
+              <minimumSize width="300" height="40"/>
+              <opaque value="false"/>
+              <preferredSize width="300" height="40"/>
+              <text value="Введите код страны и номер мобильного телефона пользователя"/>
+            </properties>
+          </component>
+          <component id="ba57f" class="javax.swing.JLabel" binding="lblAddContact">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+              <gridbag top="0" left="0" bottom="60" right="0" weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <focusable value="false"/>
+              <foreground color="-16600090"/>
+              <text value="Добавление контакта"/>
+            </properties>
+          </component>
+          <grid id="b8504" binding="panContactFound" layout-manager="GridBagLayout">
+            <constraints>
+              <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <minimumSize width="350" height="110"/>
+              <opaque value="false"/>
+              <preferredSize width="350" height="110"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <grid id="296bf" binding="panAvatar" custom-create="true" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+                <constraints>
+                  <grid row="0" column="0" row-span="2" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                  <gridbag top="0" left="0" bottom="0" right="20" weightx="0.0" weighty="0.0"/>
+                </constraints>
+                <properties>
+                  <maximumSize width="100" height="100"/>
+                  <minimumSize width="100" height="100"/>
+                  <opaque value="false"/>
+                  <preferredSize width="100" height="100"/>
+                </properties>
+                <border type="none"/>
+                <children/>
+              </grid>
+              <component id="e333b" class="javax.swing.JLabel" binding="lblContactFound">
+                <constraints>
+                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="10" fill="0" indent="0" use-parent-layout="false"/>
+                  <gridbag weightx="0.0" weighty="0.0"/>
+                </constraints>
+                <properties>
+                  <foreground color="-16600090"/>
+                  <text value="Найден пользователь"/>
+                </properties>
+              </component>
+              <component id="d2364" class="javax.swing.JLabel" binding="lblContactName">
+                <constraints>
+                  <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                  <gridbag weightx="0.0" weighty="0.0"/>
+                </constraints>
+                <properties>
+                  <foreground color="-1"/>
+                  <maximumSize width="320" height="30"/>
+                  <minimumSize width="320" height="30"/>
+                  <opaque value="false"/>
+                  <preferredSize width="320" height="30"/>
+                  <text value="Имя Пользователя"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <component id="4f70c" class="javax.swing.JButton" binding="btnAdd">
+            <constraints>
+              <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="1" fill="0" indent="0" use-parent-layout="false"/>
+              <gridbag top="20" left="0" bottom="20" right="0" weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <background color="-16600088"/>
+              <font size="24"/>
+              <foreground color="-1"/>
+              <maximumSize width="337" height="65"/>
+              <minimumSize width="337" height="65"/>
+              <opaque value="true"/>
+              <preferredSize width="337" height="65"/>
+              <text value="ДОБАВИТЬ"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="fe923" binding="panContactSouth" layout-manager="BorderLayout" hgap="0" vgap="0">
+        <constraints border-constraint="South"/>
+        <properties>
+          <minimumSize width="0" height="50"/>
+          <opaque value="false"/>
+          <preferredSize width="0" height="50"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <grid id="d25fa" binding="panBottomLeft" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+            <constraints border-constraint="West"/>
+            <properties>
+              <background color="-10372632"/>
+              <minimumSize width="150" height="0"/>
+              <opaque value="false"/>
+              <preferredSize width="150" height="0"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="158fc" class="javax.swing.JButton" binding="btnBack" custom-create="true">
+                <constraints/>
+                <properties>
+                  <background color="-1"/>
+                  <maximumSize width="35" height="35"/>
+                  <minimumSize width="35" height="35"/>
+                  <opaque value="false"/>
+                  <preferredSize width="35" height="35"/>
+                  <text value=""/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>

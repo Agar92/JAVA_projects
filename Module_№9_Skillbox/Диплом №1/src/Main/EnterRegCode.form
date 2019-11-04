@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Main.EnterRegCode">
+  <grid id="27dc6" binding="rootpanel" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="20" y="20" width="969" height="564"/>
+    </constraints>
+    <properties>
+      <maximumSize width="700" height="344"/>
+      <minimumSize width="700" height="344"/>
+      <preferredSize width="700" height="344"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <grid id="889b3" binding="toppanel" layout-manager="BorderLayout" hgap="0" vgap="0">
+        <constraints border-constraint="North"/>
+        <properties>
+          <maximumSize width="10" height="10"/>
+        </properties>
+        <border type="none"/>
+        <children/>
+      </grid>
+      <grid id="dc4ea" binding="mainpanel" custom-create="true" layout-manager="GridBagLayout">
+        <constraints border-constraint="Center"/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="e42da" class="javax.swing.JLabel" binding="label1" custom-create="true">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="1" fill="0" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="1.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <horizontalAlignment value="0"/>
+              <horizontalTextPosition value="0"/>
+              <maximumSize width="124" height="98"/>
+              <minimumSize width="124" height="98"/>
+              <preferredSize width="124" height="98"/>
+              <text value=""/>
+              <verticalAlignment value="1"/>
+            </properties>
+          </component>
+          <component id="5fc35" class="javax.swing.JLabel" binding="phonelabel">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="1" fill="0" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="1.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <font name="Consolas" size="28" style="1"/>
+              <foreground color="-1"/>
+              <horizontalAlignment value="0"/>
+              <horizontalTextPosition value="0"/>
+              <maximumSize width="300" height="40"/>
+              <minimumSize width="300" height="40"/>
+              <preferredSize width="300" height="40"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="f9c4e" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+              <gridbag top="20" left="100" bottom="0" right="100" weightx="1.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <font name="Consolas" size="16" style="0"/>
+              <foreground color="-1"/>
+              <horizontalAlignment value="0"/>
+              <horizontalTextPosition value="0"/>
+              <text value="На данный номер телефона было отправлено "/>
+            </properties>
+          </component>
+          <component id="43413" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+              <gridbag top="0" left="100" bottom="0" right="100" weightx="1.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <font name="Consolas" size="16" style="0"/>
+              <foreground color="-1"/>
+              <horizontalAlignment value="0"/>
+              <horizontalTextPosition value="0"/>
+              <text value="SMS-сообщение с кодои подтверждения."/>
+            </properties>
+          </component>
+          <component id="f24d" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+              <gridbag top="0" left="100" bottom="0" right="100" weightx="1.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <font name="Consolas" size="16" style="0"/>
+              <foreground color="-1"/>
+              <horizontalAlignment value="0"/>
+              <horizontalTextPosition value="0"/>
+              <text value="Пожалуйста, введите этот код в поле ниже:"/>
+            </properties>
+          </component>
+          <grid id="8875e" binding="passpanel" layout-manager="GridLayoutManager" row-count="1" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+              <gridbag top="0" left="250" bottom="0" right="250" weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <maximumSize width="22" height="36"/>
+              <minimumSize width="22" height="36"/>
+              <opaque value="false"/>
+              <preferredSize width="22" height="36"/>
+            </properties>
+            <border type="line"/>
+            <children>
+              <component id="b69a" class="javax.swing.JLabel" binding="label2" custom-create="true">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                    <minimum-size width="22" height="36"/>
+                    <preferred-size width="22" height="36"/>
+                    <maximum-size width="22" height="36"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <opaque value="false"/>
+                  <text value=""/>
+                </properties>
+              </component>
+              <component id="ce38e" class="javax.swing.JPasswordField" binding="passwordField">
+                <constraints>
+                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="9" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <margin top="13" left="0" bottom="0" right="0"/>
+                  <opaque value="false"/>
+                  <text value=""/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <component id="a231" class="javax.swing.JButton" binding="InputButton">
+            <constraints>
+              <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+              <gridbag top="30" left="220" bottom="20" right="220" weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <background color="-9705246"/>
+              <maximumSize width="100" height="40"/>
+              <minimumSize width="100" height="40"/>
+              <preferredSize width="100" height="40"/>
+              <text value="Button"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>

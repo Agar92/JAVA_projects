@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="GUI.OvlAddButton">
+  <grid id="27dc6" binding="panButton" custom-create="true" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="20" y="20" width="500" height="400"/>
+    </constraints>
+    <properties>
+      <opaque value="false"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <grid id="3a16c" binding="panAdd" layout-manager="GridBagLayout">
+        <constraints border-constraint="South"/>
+        <properties>
+          <background color="-15079248"/>
+          <minimumSize width="0" height="50"/>
+          <opaque value="false"/>
+          <preferredSize width="0" height="50"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="3423e" class="javax.swing.JButton" binding="btnAdd" custom-create="true">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+              <gridbag top="0" left="0" bottom="0" right="260" weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <background color="-1"/>
+              <maximumSize width="26" height="26"/>
+              <minimumSize width="26" height="26"/>
+              <opaque value="false"/>
+              <preferredSize width="26" height="26"/>
+              <text value=""/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>

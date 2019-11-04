@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Main.ContactPane">
+  <grid id="27dc6" binding="panContact" custom-create="true" layout-manager="GridBagLayout">
+    <constraints>
+      <xy x="214" y="34" width="303" height="64"/>
+    </constraints>
+    <properties>
+      <background color="-1"/>
+      <maximumSize width="0" height="0"/>
+      <minimumSize width="0" height="0"/>
+      <opaque value="true"/>
+      <preferredSize width="0" height="0"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="5a93e" class="javax.swing.JLabel" binding="lblName">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag top="10" left="5" bottom="0" right="0" weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <font size="16" style="1"/>
+          <maximumSize width="180" height="27"/>
+          <minimumSize width="180" height="27"/>
+          <preferredSize width="180" height="27"/>
+          <text value="Имя Контакта"/>
+        </properties>
+      </component>
+      <component id="2f773" class="javax.swing.JLabel" binding="lblMsg">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag top="0" left="5" bottom="10" right="0" weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <background color="-1579033"/>
+          <foreground color="-6118750"/>
+          <maximumSize width="200" height="16"/>
+          <minimumSize width="200" height="16"/>
+          <opaque value="true"/>
+          <preferredSize width="200" height="16"/>
+          <text value="Крайнее сообщение"/>
+        </properties>
+      </component>
+      <component id="b02d7" class="javax.swing.JLabel" binding="lblTime">
+        <constraints>
+          <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <foreground color="-6118750"/>
+          <maximumSize width="45" height="16"/>
+          <minimumSize width="45" height="16"/>
+          <preferredSize width="45" height="16"/>
+          <requestFocusEnabled value="false"/>
+          <text value="Время"/>
+        </properties>
+      </component>
+      <grid id="efb5f" binding="panAvatar" custom-create="true" layout-manager="GridBagLayout">
+        <constraints>
+          <grid row="0" column="0" row-span="2" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag top="0" left="10" bottom="0" right="0" weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <background color="-1521480"/>
+          <inheritsPopupMenu value="false"/>
+          <maximumSize width="41" height="41"/>
+          <minimumSize width="41" height="41"/>
+          <opaque value="false"/>
+          <preferredSize width="41" height="41"/>
+        </properties>
+        <border type="none"/>
+        <children/>
+      </grid>
+    </children>
+  </grid>
+</form>
